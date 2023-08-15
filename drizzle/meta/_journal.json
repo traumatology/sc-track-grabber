@@ -1,0 +1,48 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1691903170106,
+      "tag": "0000_bizarre_frank_castle",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1691905701802,
+      "tag": "0001_goofy_tusk",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1691924207785,
+      "tag": "0002_chunky_reaper",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1691930222472,
+      "tag": "0003_sloppy_karen_page",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1691982150863,
+      "tag": "0004_married_cardiac",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1691995959723,
+      "tag": "0005_sweet_whizzer",
+      "breakpoints": true
+    }
+  ]
+}

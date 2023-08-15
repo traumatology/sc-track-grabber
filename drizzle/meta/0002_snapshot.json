@@ -1,0 +1,43 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "id": "547a029e-1c49-4ca1-ac89-cb6f488c1e3c",
+  "prevId": "b61b4a6a-1216-4a4e-89b8-7fbe11c4bb29",
+  "tables": {
+    "tracks": {
+      "name": "tracks",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "track_file_url": {
+          "name": "track_file_url",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "artist_account_id": {
+          "name": "artist_account_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    }
+  },
+  "enums": {},
+  "schemas": {},
+  "_meta": {
+    "schemas": {},
+    "tables": {},
+    "columns": {}
+  }
+}
