@@ -7,6 +7,13 @@ import commands from './commands/commands.js'
 import { ProcessedMessage } from './types/command.js'
 import cron from 'node-cron'
 import { grabNewTracks } from './cron-jobs/grab-new-tracks.js'
+import { createServer } from 'http'
+
+const server = createServer((request, response) => {
+    response.end('123')
+})
+
+server.listen(3000)
 
 dotenv.config()
 
