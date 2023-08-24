@@ -1,6 +1,6 @@
 # Soundcloud track grabber
 
-Telegram bot that checks for new songs from specified profiles every minute, saves 
+Telegram bot that checks for new songs from specified SoundCloud profiles every minute, saves 
 them to supabase bucket and notifies through telegram.
 
 also used drizzle for the first time. queries and filtering looks clean. migrations
