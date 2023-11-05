@@ -8,6 +8,7 @@ import { ProcessedMessage } from './types/command.js'
 import cron from 'node-cron'
 import { grabNewTracks } from './cron-jobs/grab-new-tracks.js'
 import { createServer } from 'http'
+import { updateSoundcloudClientId } from './cron-jobs/update-soundcloud-client-id.js'
 
 const server = createServer((request, response) => {
     response.end('123')
@@ -39,3 +40,4 @@ botApi.on('message', message => {
 })
 
 cron.schedule('*/1 * * * *', async () => await grabNewTracks(botApi))
+cron.schedule('0 1 * * *', async () => await updateSoundcloudClientId())

@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon src/main.ts"
+    "dev": "nodemon --esm src/main.ts"
   },
   "author": "",
   "license": "ISC",
@@ -24,6 +24,7 @@
     "drizzle-orm": "^0.28.2",
     "node-cron": "^3.0.2",
     "node-telegram-bot-api": "^0.61.0",
-    "postgres": "^3.3.5"
+    "postgres": "^3.3.5",
+    "soundcloud-client-id-generator": "^1.2.0"
   }
 }
